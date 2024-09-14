@@ -15,8 +15,9 @@ const Contact = () => {
         {/* Description */}
         <div className="flex items-center justify-center mb-8 text-lg">
           <p className="text-center text-neutral-200 sm:w-3/4 lg:w-1/2">
-            Are you looking for a web developer? Then you're in the right place.
-            Get the fastest and most reliable solutions you're looking for. Just{" "}
+            Are you looking for a web developer? Then you&apos;re in the right
+            place. Get the fastest and most reliable solutions you&apos;re
+            looking for. Just{" "}
             <span className="text-[#92ed37] font-semibold">reach out</span> and
             let me know!
           </p>

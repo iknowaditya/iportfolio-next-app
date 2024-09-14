@@ -24,6 +24,7 @@ const Skill = () => {
                   width={40}
                   height={40}
                   className="w-10 h-10 flex-shrink-0 rounded-md shadow-2xl"
+                  alt="HTML"
                 />
                 <span className="text-xs  mt-2">HTML</span>
               </div>
@@ -33,6 +34,7 @@ const Skill = () => {
                   width={40}
                   height={40}
                   className="w-10 h-10 flex-shrink-0 rounded-md shadow-2xl"
+                  alt="CSS"
                 />
                 <span className="text-xs  mt-2">CSS</span>
               </div>
@@ -42,6 +44,7 @@ const Skill = () => {
                   width={40}
                   height={40}
                   className="w-10 h-10 flex-shrink-0 rounded-md shadow-2xl"
+                  alt="JS"
                 />
                 <span className="text-xs  mt-2">JS</span>
               </div>
@@ -51,6 +54,7 @@ const Skill = () => {
                   width={40}
                   height={40}
                   className="w-10 h-10 flex-shrink-0 rounded-md shadow-2xl"
+                  alt="REACT"
                 />
                 <span className="text-xs  mt-2">REACT</span>
               </div>
@@ -60,6 +64,7 @@ const Skill = () => {
                   width={40}
                   height={40}
                   className="w-10 h-10 flex-shrink-0 rounded-md shadow-2xl"
+                  alt="NEXT"
                 />
                 <span className="text-xs  mt-2">NEXT</span>
               </div>
@@ -78,6 +83,7 @@ const Skill = () => {
                   width={40}
                   height={40}
                   className="w-10 h-10 flex-shrink-0 rounded-md shadow-2xl"
+                  alt="POSTGRESQL"
                 />
                 <span className="text-xs  mt-2 ">POSTGRESQL</span>
               </div>
@@ -87,6 +93,7 @@ const Skill = () => {
                   width={40}
                   height={40}
                   className="w-10 h-10 flex-shrink-0 rounded-md shadow-2xl"
+                  alt="NODE"
                 />
                 <span className="text-xs  mt-2">NODE</span>
               </div>
@@ -96,6 +103,7 @@ const Skill = () => {
                   width={40}
                   height={40}
                   className="w-10 h-10 flex-shrink-0 rounded-md shadow-2xl"
+                  alt="EXPRESS"
                 />
                 <span className="text-xs mt-2">EXPRESS</span>
               </div>
@@ -105,6 +113,7 @@ const Skill = () => {
                   width={40}
                   height={40}
                   className="w-10 h-10 flex-shrink-0 rounded-md shadow-2xl"
+                  alt="MONGODB"
                 />
                 <span className="text-xs  mt-2">MONGODB</span>
               </div>
@@ -114,6 +123,7 @@ const Skill = () => {
                   width={40}
                   height={40}
                   className="w-10 h-10 flex-shrink-0 rounded-md shadow-2xl"
+                  alt="GRAPHQL"
                 />
                 <span className="text-xs mt-2">GRAPHQL</span>
               </div>
@@ -133,6 +143,7 @@ const Skill = () => {
                   width={40}
                   height={40}
                   className="w-10 h-10 flex-shrink-0 rounded-md shadow-2xl"
+                  alt="REDUX"
                 />
                 <span className="text-xs  mt-2">REDUX</span>
               </div>
@@ -142,6 +153,7 @@ const Skill = () => {
                   width={40}
                   height={40}
                   className="w-10 h-10 flex-shrink-0 rounded-md shadow-2xl"
+                  alt="GIT"
                 />
                 <span className="text-xs  mt-2 ">GIT</span>
               </div>
@@ -151,6 +163,7 @@ const Skill = () => {
                   width={40}
                   height={40}
                   className="w-10 h-10 flex-shrink-0 rounded-md shadow-2xl"
+                  alt="GITHUB"
                 />
                 <span className="text-xs  mt-2">GITHUB</span>
               </div>
@@ -160,6 +173,7 @@ const Skill = () => {
                   width={40}
                   height={40}
                   className="w-10 h-10 flex-shrink-0 rounded-md shadow-2xl"
+                  alt="AWS"
                 />
                 <span className="text-xs mt-2">AWS</span>
               </div>
@@ -170,6 +184,7 @@ const Skill = () => {
                   width={40}
                   height={40}
                   className="w-10 h-10 flex-shrink-0 rounded-md shadow-2xl"
+                  alt="FIGMA"
                 />
                 <span className="text-xs mt-2">FIGMA</span>
               </div>

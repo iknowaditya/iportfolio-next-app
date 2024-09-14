@@ -1,4 +1,5 @@
-import Link from "next/link";
+"use client";
+
 import { Button } from "../components/ui/moving-border";
 import { BackgroundBeams } from "../components/ui/background-beams";
 import { ButtonsCard } from "../components/ui/tailwindcss-buttons";
@@ -12,7 +13,7 @@ const HeroSection = () => {
             <Button>NAMASKARAM!</Button>
           </div>
           <h1 className="text-5xl font-semibold mb-4 text-white">
-            I'm{" "}
+            I&apos;m{" "}
             <span
               className="text-5xl font-semibold mb-4 text-[#92ed37]"
               style={{ fontFamily: "league_script" }}

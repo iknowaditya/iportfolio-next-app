@@ -13,6 +13,7 @@ const About = () => {
               width={140}
               height={70}
               className="flex-shrink-0 rounded-md shadow-2xl"
+              alt="Vercel"
             />
           </div>
           <div className="w-[140px] h-[70px] flex items-center justify-center border border-neutral-100 p-4">
@@ -21,6 +22,7 @@ const About = () => {
               width={140}
               height={70}
               className="flex-shrink-0 rounded-md shadow-2xl"
+              alt="Newton"
             />
           </div>
           <div className="w-[140px] h-[70px] flex items-center justify-center border border-neutral-100 p-6">
@@ -29,6 +31,7 @@ const About = () => {
               width={140}
               height={70}
               className="flex-shrink-0 rounded-md shadow-2xl"
+              alt="Intern"
             />
           </div>
           <div className="w-[140px] h-[70px] flex items-center justify-center border border-neutral-100 p-6">
@@ -37,6 +40,7 @@ const About = () => {
               width={140}
               height={70}
               className="flex-shrink-0 rounded-md shadow-2xl"
+              alt="BBD"
             />
           </div>
         </div>
@@ -87,18 +91,21 @@ const About = () => {
             width={8}
             height={8}
             className=" w-8 h-8 object-cover "
+            alt="Github"
           />
           <Image
             src="/dis.svg"
             width={8}
             height={8}
             className=" w-8 h-8 object-cover "
+            alt="Dis"
           />
           <Image
             src="/linked.svg"
             width={8}
             height={8}
             className=" w-8 h-9 object-cover "
+            alt="Linked"
           />
         </div>
 

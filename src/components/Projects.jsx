@@ -18,6 +18,7 @@ const Projects = () => {
                 width={170}
                 height={40}
                 className="rounded-md shadow-lg mb-4 z-20"
+                alt="Vercel"
               />
             </div>
             <div>
@@ -53,6 +54,7 @@ const Projects = () => {
                 width={170}
                 height={40}
                 className="rounded-md shadow-lg mb-4"
+                alt="Vercel"
               />
             </div>
             <div>
@@ -89,6 +91,7 @@ const Projects = () => {
                 width={170}
                 height={40}
                 className="rounded-md shadow-lg mb-4"
+                alt="Vercel"
               />
             </div>
             <div>
@@ -124,6 +127,7 @@ const Projects = () => {
                 width={170}
                 height={40}
                 className="rounded-md shadow-lg mb-4"
+                alt="Vercel"
               />
             </div>
             <div>
