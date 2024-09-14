@@ -59,9 +59,9 @@ const About = () => {
             <br />
             <br />I have been recognized as one of the{" "}
             <span className="text-[#92ed37] ">Top 100 Coders</span>, and I take
-            pride in the positive feedback I've received from both clients and
-            colleagues. Looking forward, I believe that a great developer not
-            only fixes codes but also contributes to solving real-world
+            pride in the positive feedback I&apos;ve received from both clients
+            and colleagues. Looking forward, I believe that a great developer
+            not only fixes codes but also contributes to solving real-world
             problems.
           </p>
         </div>
