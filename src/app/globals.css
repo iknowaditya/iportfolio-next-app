@@ -25,6 +25,14 @@ section {
 :root {
   --font-open-sans: var(--font-open-sans);
   --font-fasinate: var(--font-fasinate);
+  --primary: #1b1d1e;
+  --secondary: rgba(164, 193, 200, 0.4);
+  --tertiary: rgba(31, 209, 253, 0.6);
+}
+
+* {
+  scrollbar-width: thin;
+  scrollbar-color: var(--secondary) var(--primary);
 }
 
 /* You can create specific utility classes to apply fonts */
