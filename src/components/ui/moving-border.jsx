@@ -23,7 +23,8 @@ export function Button({
   return (
     <Component
       className={cn(
-        "bg-transparent relative text-xl  h-10 w-36 p-[1px] overflow-hidden ",
+        // Adjust size for mobile and tablet using Tailwind breakpoints
+        "bg-transparent relative text-lg sm:text-xl h-10 sm:h-12 w-28 sm:w-36 p-[1px] sm:p-[2px] overflow-hidden",
         containerClassName
       )}
       style={{
@@ -38,7 +39,8 @@ export function Button({
         <MovingBorder duration={duration} rx="30%" ry="30%">
           <div
             className={cn(
-              "h-20 w-20 opacity-[0.8] bg-[radial-gradient(#92ed37_40%,transparent_60%)]",
+              // Adjust the size of the border animation for mobile and tablet
+              "h-16 w-16 sm:h-20 sm:w-20 opacity-[0.8] bg-[radial-gradient(#92ed37_40%,transparent_60%)]",
               borderClassName
             )}
           />
@@ -46,7 +48,8 @@ export function Button({
       </div>
       <div
         className={cn(
-          "relative bg-black border border-neutral-800 backdrop-blur-xl text-white flex items-center justify-center w-full h-full text-sm antialiased",
+          // Add responsive classes for the button's text and padding
+          "relative bg-black border border-neutral-800 backdrop-blur-xl text-white flex items-center justify-center w-full h-full text-xs sm:text-sm antialiased",
           className
         )}
         style={{

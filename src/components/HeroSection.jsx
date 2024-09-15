@@ -1,47 +1,51 @@
 "use client";
 
 import { Button } from "../components/ui/moving-border";
-import { BackgroundBeams } from "../components/ui/background-beams";
 import { ButtonsCard } from "../components/ui/tailwindcss-buttons";
+import Link from "next/link";
 
 const HeroSection = () => {
   return (
     <>
-      <div className="h-auto md:h-[40rem] w-full rounded-md flex flex-col sm:py-16 justify-center items-center relative overflow-hidden mx-auto py-10 md:py-0">
-        <div className="p-6 relative z-10 w-full text-center">
-          <div className="flex justify-center mb-4">
+      <div
+        className="h-[40rem] md:h-[43rem] w-full rounded-md flex flex-col sm:py-16 justify-center items-center relative overflow-hidden mx-auto py-10 md:py-0"
+        id="home"
+      >
+        <div className="p-6 relative z-10 w-full text-center max-w-[89vw] md:max-w-2xl lg:max-w-[60vw] flex flex-col items-center justify-center">
+          <div className="relative flex justify-center mb-4 ">
             <Button>NAMASKARAM!</Button>
           </div>
-          <h1 className="text-5xl font-semibold mb-4 text-white">
+          <h1 className=" font-semibold mb-4 text-white text-center md:tracking-wider text-base md:text-3xl xl:text-3xl">
             I&apos;m{" "}
             <span
-              className="text-5xl font-semibold mb-4 text-[#92ed37]"
-              style={{ fontFamily: "league_script" }}
+              className="text-3xl  md:text-5xl font-semibold mb-4 text-[#92ed37]"
+              style={{ fontFamily: " 'Poppins', sans-serif" }}
             >
-              Mark Holman
+              Hanu Singh
             </span>
           </h1>
-          <h3 className="text-lg mb-4">Full Stack Developer</h3>
-          <div className="flex flex-col md:flex-row items-center justify-center gap-6 w-full">
+          <h3 className="md:text-lg text-sm mb-4 tracking-widest max-w- text-center ">
+            Full Stack Developer
+          </h3>
+          <div className="flex flex-col md:flex-row items-center justify-center gap-3 md:gap-6 w-full mt-4 md:mt-2">
             <ButtonsCard
               href={"/contact"}
-              className="flex gap-2 items-center justify-center bg-black border border-neutral-800 rounded-full text-white text-sm md:text-base min-w-[150px] max-w-[200px] min-h-[40px] max-h-[50px] w-full h-auto antialiased"
+              className="flex gap-2 items-center justify-center bg-black border border-neutral-800 hover:border-[#92ed37] rounded-full text-white text-sm md:text-base min-w-[100px] max-w-[150px] min-h-[40px] max-h-[50px] w-full h-auto antialiased"
             >
               Download CV
             </ButtonsCard>
 
             <ButtonsCard
-              href={"/contact"}
-              className="flex items-center justify-center gap-2 bg-black border border-neutral-800 rounded-full text-white text-sm md:text-base min-w-[150px] max-w-[200px] min-h-[40px] max-h-[50px] w-full h-auto antialiased"
+              className="flex items-center justify-center gap-2 bg-black border hover:border-[#92ed37]  border-neutral-800 rounded-full text-white text-sm md:text-base min-w-[100px] max-w-[150px] min-h-[40px] max-h-[50px] w-full h-auto antialiased"
               type="button"
             >
-              Contact Me
+              <Link href="#contact">Contact Me</Link>
             </ButtonsCard>
           </div>
         </div>
 
         {/* Development Names at the Bottom */}
-        <div className="absolute bottom-6 mb-6 flex flex-row space-x-6">
+        <div className="hidden  absolute bottom-6 mb-6 sm:flex flex-row space-x-6">
           <h3>Front End Development</h3>
           <h3 className="border-l-2 border-[#92ed37] pl-4">
             Back End Development
@@ -53,8 +57,6 @@ const HeroSection = () => {
             Mern Stack Development
           </h3>
         </div>
-
-        <BackgroundBeams />
       </div>
     </>
   );

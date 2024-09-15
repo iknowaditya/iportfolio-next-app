@@ -5,7 +5,10 @@ import Link from "next/link";
 const About = () => {
   return (
     <>
-      <div className="xl:max-w-[1280px] w-full" id="about">
+      <div
+        className="xl:max-w-[1280px] w-full sm:px-16 px-6 sm:py-12 py-4"
+        id="about"
+      >
         <div className="flex flex-row items-center justify-center">
           <div className="w-[140px] h-[70px] flex items-center justify-center border border-neutral-100 p-6">
             <Image
@@ -46,7 +49,7 @@ const About = () => {
         </div>
 
         <div className="flex flex-col items-center justify-center sm:py-16 py-6 px-8 max-w-4xl mx-auto">
-          <strong className="font-semibold xs:text-[48px] text-[36px] text-white xs:leading-[76.8px] leading-[56.8px] w-full text-center">
+          <strong className="text-[42px] font-extrabold font-sans bg-gradient-to-t from-neutral-900 to-neutral-300 bg-clip-text text-transparent">
             WHO AM I
           </strong>
           <p className="font-normal text-white text-[16px] sm:text-[18px] leading-[28px] sm:leading-[30.8px] text-center mt-4 sm:mt-6">
@@ -66,18 +69,22 @@ const About = () => {
           </p>
         </div>
 
-        <div className="flex flex-row items-center justify-center gap-8">
-          <div className="flex flex-row items-center justify-center">
-            <h1 className="text-6xl mr-2 text-[#92ed37] font-bold">01+</h1>
-            <span className="text-lg">
+        <div className="flex flex-col sm:flex-row items-center justify-center gap-4 sm:gap-8">
+          <div className="flex flex-col sm:flex-row items-center justify-center">
+            <h1 className="text-4xl sm:text-5xl lg:text-6xl mr-0 sm:mr-2 text-[#92ed37] font-bold">
+              01+
+            </h1>
+            <span className="text-base sm:text-lg lg:text-xl text-center sm:text-left">
               YEARS OF
               <br /> EXPERIENCE
             </span>
           </div>
 
-          <div className="flex flex-row items-center justify-center">
-            <h1 className="text-6xl mr-2 text-[#92ed37] font-bold">15+</h1>
-            <span className="text-lg">
+          <div className="flex flex-col sm:flex-row items-center justify-center">
+            <h1 className="text-4xl sm:text-5xl lg:text-6xl mr-0 sm:mr-2 text-[#92ed37] font-bold">
+              15+
+            </h1>
+            <span className="text-base sm:text-lg lg:text-xl text-center sm:text-left">
               COMPLETED
               <br />
               WORKS
@@ -85,7 +92,7 @@ const About = () => {
           </div>
         </div>
 
-        <div className="relative flex items-center justify-center space-x-20 py-10">
+        {/* <div className="relative flex items-center justify-center space-x-20 py-10">
           <Image
             src="/github.svg"
             width={8}
@@ -107,9 +114,9 @@ const About = () => {
             className=" w-8 h-9 object-cover "
             alt="Linked"
           />
-        </div>
+        </div> */}
 
-        <div className="flex flex-col items-center justify-center  py-6 px-8 max-w-xl mx-auto">
+        <div className="flex flex-col items-center justify-center font-bold  py-10 px-8 max-w-xl mx-auto">
           <Link href="/download" passHref>
             <button className="bg-[#92ed37] hover:bg-[#92ed37bd] text-black font-bold py-3 px-8 rounded-full shadow-md transition duration-300 ease-in-out transform hover:scale-105">
               Download Me
