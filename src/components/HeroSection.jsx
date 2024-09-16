@@ -29,7 +29,14 @@ const HeroSection = () => {
           </h3>
           <div className="flex flex-col md:flex-row items-center justify-center gap-3 md:gap-6 w-full mt-4 md:mt-2">
             <ButtonsCard
-              href={"/contact"}
+              onClick={() => {
+                const link = document.createElement("a");
+                link.href = "/My_Resume.pdf"; // Path to your resume file in the public folder
+                link.download = "My_Resume.pdf"; // Optional: the name of the file when downloaded
+                document.body.appendChild(link);
+                link.click();
+                document.body.removeChild(link);
+              }}
               className="flex gap-2 items-center justify-center bg-black border border-neutral-800 hover:border-[#92ed37] rounded-full text-white text-sm md:text-base min-w-[100px] max-w-[150px] min-h-[40px] max-h-[50px] w-full h-auto antialiased"
             >
               Download CV

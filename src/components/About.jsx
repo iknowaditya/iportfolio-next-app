@@ -1,3 +1,5 @@
+"use client";
+
 import React from "react";
 import Image from "next/image";
 import Link from "next/link";
@@ -117,8 +119,18 @@ const About = () => {
         </div> */}
 
         <div className="flex flex-col items-center justify-center font-bold  py-10 px-8 max-w-xl mx-auto">
-          <Link href="/download" passHref>
-            <button className="bg-[#92ed37] hover:bg-[#92ed37bd] text-black font-bold py-3 px-8 rounded-full shadow-md transition duration-300 ease-in-out transform hover:scale-105">
+          <Link href="" passHref>
+            <button
+              className="bg-[#92ed37] hover:bg-[#92ed37bd] text-black font-bold py-3 px-8 rounded-full shadow-md transition duration-300 ease-in-out transform hover:scale-105"
+              onClick={() => {
+                const link = document.createElement("a");
+                link.href = "/My_Resume.pdf"; // Path to your resume file in the public folder
+                link.download = "My_Resume.pdf"; // Optional: the name of the file when downloaded
+                document.body.appendChild(link);
+                link.click();
+                document.body.removeChild(link);
+              }}
+            >
               Download Me
             </button>
           </Link>

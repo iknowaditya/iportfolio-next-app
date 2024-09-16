@@ -1,3 +1,5 @@
+"use client";
+
 import React from "react";
 
 const Newslatter = () => {
@@ -14,7 +16,17 @@ const Newslatter = () => {
           with you!
         </p>
 
-        <button className="border border-[#92ed37] bg-black text-[#92ed37] font-medium py-2 px-6 rounded-full mt-4 sm:mt-8 shadow-md transition duration-300 ease-in-out transform hover:scale-105">
+        <button
+          className="border border-[#92ed37] bg-black text-[#92ed37] font-medium py-2 px-6 rounded-full mt-4 sm:mt-8 shadow-md transition duration-300 ease-in-out transform hover:scale-105"
+          onClick={() => {
+            const link = document.createElement("a");
+            link.href = "/My_Resume.pdf"; // Path to your resume file in the public folder
+            link.download = "My_Resume.pdf"; // Optional: the name of the file when downloaded
+            document.body.appendChild(link);
+            link.click();
+            document.body.removeChild(link);
+          }}
+        >
           DOWNLOAD RESUME
         </button>
       </div>
