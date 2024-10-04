@@ -55,21 +55,18 @@ const Projects = () => {
           </Card>
 
           <Card
-            title="Net-Worth Calculator"
+            title="Yamm Yamm Food Delivery"
             icon={<AceternityIcon order="Project 2" />}
             des={
               <>
-                Created The Net Worth{" "}
-                <span className="text-[#92ed37] font-bold">Calculator</span>, It
-                is a full-stack MERN application that allows users to register
-                and log in using JWT-based authentication. Once authenticated,
-                users can input detailed assets and liabilities via REST APIs to
-                calculate their net worth.
+                Created Yumm Yumm Food{" "}
+                <span className="text-[#92ed37] font-bold">Delivery</span>, It
+                App is a full-stack web application designed for food delivery, allowing users to explore a variety of dishes, add them to their cart, and proceed to checkout using Stripe for secure payments. It includes an admin panel for managing food availability, user orders, and tracking information, with all data stored in MongoDB.
               </>
             }
             btn1={
               <a
-                href="https://net-worth-calculator-frontend.vercel.app/"
+                href="https://food-delivery-fullstack-frontend.vercel.app/"
                 target="_blank"
                 rel="noopener noreferrer"
               >
@@ -78,7 +75,7 @@ const Projects = () => {
             }
             btn2={
               <a
-                href="https://github.com/iknowaditya/net-worth-calculator-full-stack-app"
+                href="https://github.com/iknowaditya/food-delivery-fullstack"
                 target="_blank"
                 rel="noopener noreferrer"
               >
@@ -195,13 +192,13 @@ const Card = ({ title, icon, children, des, btn1, btn2 }) => {
       onMouseEnter={() => setHovered(true)}
       onMouseLeave={() => setHovered(false)}
       className="border border-black/[0.2] group/canvas-card flex items-center justify-center dark:border-white/[0.2]  max-w-sm w-full mx-auto p-4 relative lg:h-[35rem] rounded-3xl"
-      // style={{
-      //   //   add these two
-      //   //   you can generate the color from here https://cssgradient.io/
-      //   background: "rgb(4,7,29)",
-      //   backgroundColor:
-      //     "linear-gradient(90deg, rgba(4,7,29,1) 0%, rgba(12,14,35,1) 100%)",
-      // }}
+    // style={{
+    //   //   add these two
+    //   //   you can generate the color from here https://cssgradient.io/
+    //   background: "rgb(4,7,29)",
+    //   backgroundColor:
+    //     "linear-gradient(90deg, rgba(4,7,29,1) 0%, rgba(12,14,35,1) 100%)",
+    // }}
     >
       <Icon className="absolute h-10 w-10 -top-3 -left-3 dark:text-white text-black opacity-30" />
       <Icon className="absolute h-10 w-10 -bottom-3 -left-3 dark:text-white text-black opacity-30" />
